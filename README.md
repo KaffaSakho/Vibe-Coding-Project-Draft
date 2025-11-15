@@ -1,4 +1,4 @@
-# Vibe-Coding-Project-Draft
+# Vibe Coding Project Draft
 # InBetween AI – Scheduling Copilot Demo  
 *A Product Demo for how InBetween AI would be integrated in private practices platforms*
 
