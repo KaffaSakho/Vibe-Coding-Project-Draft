@@ -1,6 +1,6 @@
 Implementation & Ethics Memo for InBetween AI: Scheduling Copilot (Phase 3)
 
-**How I Used AI During the Build**
+**How I Used AI During the Build**/
 AI served two distinct functions throughout this project. On one hand, it formed the backbone of the product’s conversational scheduling capabilities. On the other hand, it was an invaluable tool during development, helping me build and refine the prototype.
 During development, I mainly used Lovable, a code generation tool that converts plain-language instructions into working front-end code. Rather than starting from scratch, I relied on Lovable to set up the interface, tweak layouts, build conversational flows, and quickly test out different behaviors. This allowed me to spend more time making product decisions like how the system should interact and where its boundaries should be instead of getting bogged down in repetitive setup.
 On top of using lovable AI chat, many of the outputs required editing, clarification, or outright rejection. I had to step in frequently to limit scope,and ensure the system behaved appropriately given the mental-health-adjacent context. AI was useful for speed and exploration, but human judgment was necessary to decide what was actually acceptable even as a demo.
