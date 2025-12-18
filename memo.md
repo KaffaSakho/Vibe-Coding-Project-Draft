@@ -45,14 +45,14 @@ This reflects a conscious boundary: acknowledging risk without pretending to res
 
 Throughout the project, AI assisted with coding and iteration; however, the product decisions, ethical constraints, and final framing were my own. Whenever AI-generated content was used, it was reviewed and revised to ensure it accurately reflected my intent.
 
-*What I Learned About Building with Generative AI*
+**What I Learned About Building with Generative AI**
 
 The biggest takeaway from this project is that deciding what not to build is just as important as deciding what to build. Generative AI makes expansion tempting, but restraint is essential especially in sensitive domains like mental health.
 I also learned that prompts are not just technical inputs; they are design choices. Tone, boundaries, and refusal behavior all emerge from how the system is instructed. Iterating on prompts felt similar to iterating on interaction design.
 If I were advising another founder using GenAI, I would emphasize starting small, defining clear limits, and treating ethical constraints as first-class product requirements rather than afterthoughts.
 More broadly, this project changed how I think about AI in my future work. Instead of seeing AI as something that replaces human decision-making, I now see it as a way to support well-defined tasks within thoughtfully designed systems. When used carefully, AI can improve real workflows without undermining trust or accountability.
 
-*Conclusion*
+**Conclusion**
 
 InBetween AI demonstrates a constrained and intentional use of generative AI in a mental health context. By limiting the AI’s role to scheduling, avoiding data persistence, and adding explicit safety guardrails, the prototype prioritizes responsibility over technical buzzword. This project reinforced the importance of aligning AI capabilities with real user needs while maintaining clear ethical boundaries.
 
