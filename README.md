@@ -44,17 +44,18 @@ This completes the second interactive feature required for Option 2.
 
 ## How It Works
 
-1. User enters a client-style message  
-2. User clicks **Suggest Appointment Times**  
-3. JavaScript builds a prompt and sends it to a Gemini API endpoint (placeholder)  
-4. Gemini returns:
+1. User enters a client-style message either via text or voice prompt
+2. AI chats with user to help it find the best appointment time+therapist
+3. After AI outputs its first suggestions, user can click one of them, read a quick bio of the therapist or click on 'these times don't work forme'
+4. JavaScript builds a prompt and sends it to a Gemini API endpoint (placeholder)  
+5. Gemini returns:
    - A summary  
    - Three appointment suggestions  
-5. User selects a slot  
-6. User enters an email and simulates receiving a calendar invite  
+6. User selects a slot  
+7. User enters an email and simulates receiving a calendar invite  
 
 All availability used is fictional:
-
+For example:
 - Dr. Rivera — virtual — Tue/Wed 5–7pm  
 - Dr. Lee — virtual or in-person — Thu 3–6pm  
 - Dr. Chen — in-person — Mon/Fri 9am–12pm  
@@ -93,7 +94,8 @@ Do you have morning sessions this Friday?
 ## Ethical Notes
 
 - Not for real clinical use  
-- Do not input sensitive or identifying health information  
+- Do not input sensitive or identifying health information
+- This prototype does not store user messages, chat history, or personal information. All interactions are session-only and occur entirely in the browser.
 - All appointment times are fictional  
 - No emails or invites are actually sent  
 
